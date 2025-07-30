@@ -1,0 +1,15 @@
+Section 6: Using Terminal Shortcuts
+
+Interrupt Process:
+
+Run the sleep 100 command, then use a keyboard shortcut to stop the process.
+Question: Which shortcut did you use to interrupt the sleep command?
+
+Clear Terminal:
+
+Use the shortcut to clear the terminal screen.
+Question: What is the shortcut to clear the terminal?
+
+Command Autocompletion:
+Type hos in the terminal and press Tab to auto-complete it to hostname.
+Question: Did the Tab key auto-complete the command for you?

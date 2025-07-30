@@ -1,0 +1,13 @@
+Section 1: Logging in and Accessing the System
+
+Login Task (GUI): 
+
+Open the terminal in the GUI of your RHEL 9 system.
+Question: What command do you use to open a terminal in RHEL via the GUI? 
+
+
+
+Login Task (SSH):
+
+From another system, SSH into the RHEL machine.
+Question: What command did you use to SSH into the system, and what was the IP address of your RHEL machine?

@@ -1,0 +1,9 @@
+Section 2: Understanding Bash Shell
+
+Check Default Shell:
+
+Run the command to check which shell you are currently using.
+Question: What is the command to check the current shell? What output did you get?
+Bash Commands:
+Run the command echo $SHELL to ensure you're using the bash shell.
+Question: Is /bin/bash shown in your output? If not, which shell are you using? 
