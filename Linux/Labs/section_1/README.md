@@ -36,7 +36,7 @@ or
 ```bash
 ip a
 ```
-## ⚠️note that⚠️ \
+## ⚠️note that⚠️ 
 ssh is cofigured by default on port 22 and if you want to check or change it 
 ```bash
 vi /etc/ssh/ssh_config
