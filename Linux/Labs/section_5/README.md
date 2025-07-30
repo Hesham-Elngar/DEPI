@@ -1,4 +1,4 @@
-# 🧑‍💻Section 6: Using Terminal Shortcuts
+# 🧑‍💻Section 5: Using Terminal Shortcuts
 ---
 ![IKnowAShortcutCrystalGIF (2)](https://github.com/user-attachments/assets/51778614-1421-48aa-9ae5-65c76e76fbed)
 
