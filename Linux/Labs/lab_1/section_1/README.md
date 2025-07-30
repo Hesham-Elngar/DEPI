@@ -20,7 +20,6 @@ or
 **Question:** What command did you use to SSH into the system, and what was the IP address of your RHEL machine?
 
 **Answer:**
-
 ```bash
 ssh username@ipAddress_or_hostname
 ```
