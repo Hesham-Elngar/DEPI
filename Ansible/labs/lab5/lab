@@ -1,0 +1,5 @@
+Loops Lab
+**Lab Description:** Write a playbook that creates multiple users using a loop. Store the list of users in a variable file and use a loop to iterate through them.
+**Key Concepts:** loop, list, with_items
+**Example Files:** create_users.yml, vars.yml
+    

@@ -1,0 +1,4 @@
+Conditionals Lab
+**Lab Description:** Create a playbook that installs different packages depending on the OS type by using the 'ansible_os_family' fact. Use conditionals in the tasks.
+**Key Concepts:** when, ansible_facts, conditionals
+**Example Files:** install_by_os.yml
