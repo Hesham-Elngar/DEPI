@@ -1,0 +1,4 @@
+Handlers Lab
+**Lab Description:** Write a playbook to install and configure nginx. Create a handler that restarts the nginx service only when the configuration file is modified.
+**Key Concepts:** notify, handlers, service restart
+**Example Files:** nginx_setup.yml, handlers/main.yml

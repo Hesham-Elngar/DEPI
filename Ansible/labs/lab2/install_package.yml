@@ -1,0 +1,12 @@
+---
+- name: Install package using variable precedence demo
+  hosts: all
+  become: yes
+
+  vars_files:
+    - vars.yml    
+  tasks:
+    - name: Install package (overridden by inline task var if present)
+      yum:
+        name: "{{ package_name }}"
+        state: present
