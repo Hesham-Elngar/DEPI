@@ -1,0 +1,3 @@
+What is the main difference between a ReplicationController and a ReplicaSet in Kubernetes?
+If you delete a Pod managed by a ReplicaSet, what happens?
+Why might you prefer a Deployment over a ReplicaSet in production?
