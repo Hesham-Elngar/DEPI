@@ -1,28 +1,31 @@
-What is the main difference between a ReplicationController and a ReplicaSet in Kubernetes?
+# Kubernetes Controllers Lab Notes
 
-ReplicaSet  is modern and faster ,ReplicationController can be considered as legacy or deprecated but still works
+## ðŸ”¹ What is the main difference between a ReplicationController and a ReplicaSet in Kubernetes?
 
-Think of it this way:
+- **ReplicaSet** is modern and faster.  
+- **ReplicationController** can be considered as legacy or deprecated but still works.  
 
-ReplicationController = old Nokia phone í³ž (still works, but outdated).
-
-ReplicaSet = modern smartphone í³± (better features, faster, future-proof).[D[C
-
-[A[A[A[A[[[B[B[B---
-
-If you delete a Pod managed by a ReplicaSet, what happens?
-ReplicaSet notices that and It immediately creates a new Pod to replace the deleted one
-The new Pod gets a different name/UID, but has the same labels and spec as defined in the ReplicaSetâ€™s template.
+ðŸ‘‰ Think of it this way:  
+- **ReplicationController** = old Nokia phone ðŸ“ž (still works, but outdated).  
+- **ReplicaSet** = modern smartphone ðŸ“± (better features, faster, future-proof).  
 
 ---
 
-Why might you prefer a Deployment over a ReplicaSet in production?
+## ðŸ”¹ If you delete a Pod managed by a ReplicaSet, what happens?
 
+- ReplicaSet notices that and it immediately creates a new Pod to replace the deleted one.  
+- The new Pod gets a different **name/UID**, but has the same **labels and spec** as defined in the ReplicaSetâ€™s template.  
 
-because it supports rolling out and rolling update and can manage replicasets
+<img width="800" height="962" alt="image" src="https://github.com/user-attachments/assets/f7a7d649-3201-4fc3-94f0-ecfac7b1682b" />
 
-í±‰ So in practice:
+---
 
-ReplicaSet = building block (used internally by Deployment).
+## ðŸ”¹ Why might you prefer a Deployment over a ReplicaSet in production?
 
-Deployment = production-ready controller with advanced rollout/rollback features.
+- Because it supports **rolling out** and **rolling update** and can manage ReplicaSets.  
+
+ðŸ‘‰ So in practice:  
+- **ReplicaSet** = building block (used internally by Deployment).  
+- **Deployment** = production-ready controller with advanced rollout/rollback features.  
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c034a439-0f5f-4b66-aaae-6b3b042ecbd8" />
