@@ -55,6 +55,12 @@ You should see the Nginx Welcome Page.
 <img width="905" height="818" alt="Screenshot 2025-09-03 175204" src="https://github.com/user-attachments/assets/5fde6f1c-95e4-4d69-af50-63060eecc946" />
 
 
+### 6. Delte Pod
+```bash
+kubectl delete pod nginx-pod
+```
+<img width="539" height="232" alt="image" src="https://github.com/user-attachments/assets/68f13d20-b23c-4a0e-85fc-37f7673ed5d2" />
+
 
 
 
