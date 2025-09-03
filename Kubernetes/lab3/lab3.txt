@@ -1,0 +1,10 @@
+Part 3: ReplicaSet
+Create a YAML file named `rs-nginx.yaml` that defines:
+- A ReplicaSet named `nginx-rs`
+- 3 replicas of Nginx version `1.21`
+- Pods should be labeled with `app=nginx-rs`
+Deploy the ReplicaSet.
+Verify the ReplicaSet and Pods.
+Scale the ReplicaSet to 4 replicas.
+Check the number of Pods again.
+Delete the ReplicaSet and verify Pods are also deleted.
