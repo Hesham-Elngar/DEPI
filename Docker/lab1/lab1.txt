@@ -1,0 +1,35 @@
+Kubernetes Lab Questions – Pods, ReplicationController, and ReplicaSet
+Part 1: Pod
+Create a YAML file named `pod-nginx.yaml` that defines:
+- A Pod named `nginx-pod`
+- A single container running the latest `nginx` image
+- The container should expose port 80
+Deploy the Pod to the cluster. 
+Verify that the Pod is running using `kubectl`.
+Port-forward the Pod to access it locally on port 8080.
+Open a browser and check if you can access the Nginx welcome page.
+Delete the Pod.
+Part 2: ReplicationController
+Create a YAML file named `rc-nginx.yaml` that defines:
+- A ReplicationController named `nginx-rc`
+- 3 replicas of an Nginx Pod
+- Pods should be labeled with `app=nginx`
+Deploy the ReplicationController.
+Verify the ReplicationController and all Pods are running.
+Scale the ReplicationController to 5 replicas.
+Check that new Pods are created.
+Delete the ReplicationController and verify Pods are also deleted.
+Part 3: ReplicaSet
+Create a YAML file named `rs-nginx.yaml` that defines:
+- A ReplicaSet named `nginx-rs`
+- 3 replicas of Nginx version `1.21`
+- Pods should be labeled with `app=nginx-rs`
+Deploy the ReplicaSet.
+Verify the ReplicaSet and Pods.
+Scale the ReplicaSet to 4 replicas.
+Check the number of Pods again.
+Delete the ReplicaSet and verify Pods are also deleted.
+Bonus Challenge
+What is the main difference between a ReplicationController and a ReplicaSet in Kubernetes?
+If you delete a Pod managed by a ReplicaSet, what happens?
+Why might you prefer a Deployment over a ReplicaSet in production?
