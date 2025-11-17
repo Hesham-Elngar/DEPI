@@ -29,11 +29,11 @@ resource "aws_subnet" "public" {
 } 
 
 resource "aws_instance" "myec2" {
-  ami           = "ami-0c55b159cbfafe1f0" 
+  ami           = "ami-0870af38096a5355b" 
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.public.id
 
   tags = {
-    Name = "dolfined_instance"
+    Name = "depi_instance"
   }
 }
