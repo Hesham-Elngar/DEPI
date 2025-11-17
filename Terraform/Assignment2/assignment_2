@@ -1,0 +1,7 @@
+1.Create an IAM user account and assign it the name “dolfined_user”.
+
+2.Create a new NAT gateway and a new Elastic IP address, and assign it to the new created NAT gateway.
+
+3.Display the Elastic IP (EIP), the dolfined_user arn & the NAT gateway ID on your terminal screen.
+
+4.Finally destroy of all your terraform deployed infrastructure.
