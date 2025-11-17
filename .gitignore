@@ -1,0 +1,7 @@
+# Ignore Terraform directories
+.terraform/
+**/.terraform/*
+
+# Ignore all Terraform state files anywhere
+*.tfstate
+*.tfstate.*
