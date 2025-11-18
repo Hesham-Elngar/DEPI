@@ -13,7 +13,7 @@ terraform plan
 
 3- applying infra code on AWS
 ```bash
-terraform init -auto-approve
+terraform apply -auto-approve
 ```
 ![alt text](<Screenshot 2025-11-17 222550.png>)
 
